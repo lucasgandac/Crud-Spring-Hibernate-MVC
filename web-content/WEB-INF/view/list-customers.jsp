@@ -17,17 +17,21 @@
 
 	<div id="wrapper">
 		<div id="header">
-			<h2> CRM - Gerenciador de Relação de Cliente</h2>
+			<h2> Gerenciador de Relacionamento com Cliente</h2>
 		</div>	
 	</div>
 
 	<div id="container">
 		<div id="content">
+			
+			<input type="button" value="Adicionar cliente"
+				onClick="window.location.href='showFormAdd'; return false"
+				class="add-button"/>	
 		
 			<table>
 			<tr>
-				<th>First Name</th>
-				<th>Last Name</th>
+				<th>Primeiro nome</th>
+				<th>Sobrenome</th>
 				<th>Email</th>			
 			</tr>			
 				<c:forEach var="tempCustomer" items="${customers}">
