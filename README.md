@@ -23,6 +23,10 @@ desenvolvida com a intenção de praticar meus conhecimentos de Java e da framew
 ```
 Rodar o script 'criar_usuario.sql'
 ```
+> Criar entidades no banco de dados
+```
+Rodar o script 'criar_cliente.sql'
+```
 > Testar se a conexão com o banco de dados funcionou
 ```
 Rodar o arquivo TestDbServlet.java
@@ -33,3 +37,5 @@ Adicionar o projeto no seu servidor de preferência e rodá-lo.
 ```
 
 ## Screenshots
+![Screenshot](https://github.com/lucasgandac/crud-spring_mvc-hibernate/blob/main/screenshots/Captura%20de%20tela%20de%202022-01-20%2017-04-33.png)
+![Screenshot1](https://github.com/lucasgandac/crud-spring_mvc-hibernate/blob/main/screenshots/Captura%20de%20tela%20de%202022-01-20%2017-04-57.png)
